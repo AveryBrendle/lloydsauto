@@ -1,10 +1,21 @@
 #main {
   width: stretch;
   height: 100px;
-  background-color: #6d7793;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align:center;
+  /*background-color: #6d7793;*/
+  font-family: 'Palatino Linotype';
+  text-align: center;
   font-size: 100px;
+  padding-bottom:15px;
+}
+
+#main1 {
+  width: stretch;
+  height: 100px;
+  /*background-color: #6d7793;*/
+  font-family: 'Palatino Linotype';
+  text-align: center;
+  font-size: 40px;
+  /*padding-bottom: 10px;*/
 }
 
 #form {
@@ -14,19 +25,21 @@
 
 #hours {
   /*align-content: initial;*/
-  display:inline-block;
-  width: 500px;
+  display: inline-block;
+  width: 150px;
   /*background-color: antiquewhite;*/
   /*border: 1px solid green;*/
   text-align: left;
-  padding-left:5px;
+  padding-left: 5px;
+  position: center;
 }
 
 #days {
   display:inline-block;
   text-align:right;
-  width: 500px;
+  width: 150px;
   padding-right:5px;
+  position:center;
   /*border: 1px solid black;*/
 }
 
@@ -40,20 +53,44 @@
 
 #wrapper {
   width: stretch;
+  align-items:center;
+  text-align:center;
   /*border:1px solid black;*/
 }
 #nav {
-  width: stretch;
   height: 50px;
   text-align: center;
-  background-color: #EEAA78;
-  left: 0%;
-  margin-right: 0%;
+  background-color: white;
+  margin-bottom: 0.67em;
+  margin-top:10px;
 }
 #nav-content {
   height: 100px;
   width: 400px;
-  /* background-color: black; */
-  margin-left: 37%;
-  /* margin-right: 50%; */
+  margin:0 auto;
+  font-family: 'Book Antiqua';
+}
+/*#nav-content:hover {
+  height: 100px;
+  width: 540px;
+  margin: 0 auto;
+  font-family: 'Book Antiqua';
+}*/
+
+#card {
+  box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.2);
+  color: #000000;
+  width: 700px;
+  text-align:center;
+  margin:0 auto;
+  float:unset;
+  background-color:white;
+  padding-bottom:10px;
+  /*-webkit-box-shadow: 0 4px 10px #808080;
+  box-shadow: 10px 10px 10px #808080;*/
+  /*position: relative;
+  background-color: #48b0fa;
+  width: 500px*/
+  /*background-position-x: 100px;
+  background-position-y: 100px;*/
 }
