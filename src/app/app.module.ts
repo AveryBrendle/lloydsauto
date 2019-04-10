@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { AdminComponent } from './admin/admin.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { InventoryComponent } from './inventory/inventory.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     NavbarComponent,
     HomepageComponent,
     AdminComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    InventoryComponent
   ],
   imports: [
     BrowserModule,
