@@ -5,7 +5,7 @@
   font-family: 'Palatino Linotype';
   text-align: center;
   font-size: 100px;
-  padding-bottom:15px;
+  /*padding-bottom:0px;*/
 }
 
 #main1 {
@@ -89,7 +89,7 @@
   margin:0 auto;
   float:unset;
   background-color:white;
-  padding-bottom:10px;
+  padding-bottom:3px;
   /*-webkit-box-shadow: 0 4px 10px #808080;
   box-shadow: 10px 10px 10px #808080;*/
   /*position: relative;
@@ -98,3 +98,29 @@
   /*background-position-x: 100px;
   background-position-y: 100px;*/
 }
+
+#image {
+  background-image: url('http://media.bizj.us/view/img/374291/charlotte-skyline-2-thinkstock*750xx2129-1203-0-57.jpg');
+  /*background-size: 100vw 100vh;
+  background-repeat: no-repeat;*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*#bg {
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+#bg img {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+  }*/
