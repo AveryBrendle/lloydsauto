@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\contact-us",
+    "\\homepage",
     "\\inventory",
     "\\navbar"
   ],
-  "SelectedNode": "\\contact-us\\contact-us.component.html",
+  "SelectedNode": "\\contact-us\\contact-us.component.css",
   "PreviewInSolutionExplorer": false
 }
