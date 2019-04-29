@@ -93,7 +93,7 @@
 }
 
 #image {
-  background-image: url('http://media.bizj.us/view/img/374291/charlotte-skyline-2-thinkstock*750xx2129-1203-0-57.jpg');
+  background-image: url('src/assets\WebsiteBackdrop.JPG');
   /*background-size: 100vw 100vh;
   background-repeat: no-repeat;*/
   background-attachment: fixed;

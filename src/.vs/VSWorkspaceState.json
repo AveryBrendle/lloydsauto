@@ -3,8 +3,10 @@
     "",
     "\\app",
     "\\app\\contact-us",
-    "\\app\\homepage"
+    "\\app\\homepage",
+    "\\assets",
+    "\\environments"
   ],
-  "SelectedNode": "\\app\\app-routing.module.ts",
+  "SelectedNode": "\\app\\contact-us\\contact-us.component.html",
   "PreviewInSolutionExplorer": false
 }
